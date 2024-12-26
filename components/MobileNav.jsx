@@ -12,8 +12,8 @@ const links = [
         path: '/',
     },
     {
-        name: 'services',
-        path: '/services',
+        name: 'offerings',
+        path: '/offerings',
     },
     {
         name: 'resume',
@@ -39,7 +39,7 @@ function MobileNav() {
             </SheetTrigger>
             <SheetContent className="flex flex-col">
                 {/* Logo */}
-                <div className="mt-32 mb-40 text-center text-2xl">
+                <div className="mt-32 mb-20 text-center text-2xl">
                     <Link href="/">
                         <h1 className="text-4xl font-semibold cursor-pointer">
                             Amrendra<span className="text-accent">.</span>
@@ -53,8 +53,8 @@ function MobileNav() {
                             href={link.path}
                             key={index}
                             className={`${pathname === link.path
-                                    ? 'text-accent border-b-2 border-accent'
-                                    : ''
+                                ? 'text-accent border-b-2 border-accent'
+                                : ''
                                 } capitalize font-medium hover:text-accent transition-all`}
                         >
                             {link.name}
