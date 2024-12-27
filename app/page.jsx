@@ -13,7 +13,7 @@ export default function Home() {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-lg text-white/20">Software Developer</span>
             <h1 className="h2 mb-6">
-              Hello I'm <br /> <span className="text-accent h1">Amrendra Singh</span>
+              Hello I'm <br /> <span className="text-accent h1">Aurthur Leywin</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I'm a software developer based in India. I specialize in building

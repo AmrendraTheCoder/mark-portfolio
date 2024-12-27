@@ -13,7 +13,7 @@ function Header() {
                 {/* Logo */}
                 <Link href="/">
                     <h1 className="text-4xl font-semibold cursor-pointer">
-                        Amrendra<span className="text-accent">.</span>
+                        Note<span className="text-accent">.</span>
                     </h1>
                 </Link>
                 

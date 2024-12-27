@@ -30,7 +30,7 @@ function Photo() {
                     }}
                     className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] rounded-full overflow-hidden mix-blend-lighten absolute'>
                     <Image
-                        src='/photo_cartoon.png'
+                        src='/Note.png'
                         priority
                         quality={100}
                         fill
